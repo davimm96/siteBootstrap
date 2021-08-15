@@ -1,7 +1,89 @@
-.quem-somos {
-    background-color: blue;
+body {
+    font: 20px Ariel, sans-serif;
 }
 
+
+
 .margin {
+    padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.facebook {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.facebook img {
+    margin-left: 2px;
+} 
+
+/*Autor e desenhos*/
+.quem-somos {
+    background-color: blue;
+    color: white;
+}
+
+.imgAutor {
+    width: 400px;
+    height: 400px; 
+}
+
+.parceiros img {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Serviços*/
+.servicos {
+    background-color: #f8f9fa;
+}
+
+#servicos img {
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+@media only screen and (max-width:991px) {
+    #servicos img {
+        width: 400px;
+        height: 500px;
+    } 
+}
+
+@media only screen and (max-width:560px) {
+    #servicos img {
+        width: 300px;
+        height: 400px;
+    } 
+
+    .imgAutor {
+        width: 300px;
+        height: 300px; 
+    }
+}
+
+@media only screen and (max-width:450px) {
+    #servicos img {
+        width: 200px;
+        height: 300px;
+    } 
+}
+
+@media only screen and (max-width:350px) {
+    .imgAutor {
+        width: 200px;
+        height: 200px; 
+    }
+}
+
+
+/*footer*/
+.bg-footer {
+    background-color: black;
+    color: white;
 }

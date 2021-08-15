@@ -5,9 +5,10 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light margin">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="img/logo.png" width="100" height="80">
@@ -18,37 +19,79 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#quemsomos">Quem somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#servicos">Servições</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <a href="https://www.facebook.com/davi.michaelsenmergener.73" target="_blanck" class="d-flex facebook">
+                  Facebook <img src="img/facebook.png">
+                </a>
               </div>
             </div>
           </nav>
           <section id="quemsomos">
             <div class="container-fluid quem-somos text-center margin">
-                <p>Teste</p>
+                <h3 class="margin">SOBRE MIM</h3>
+                <img src="img/img1.jpg" class="rounded-circle imgAutor">
+                <h3 class="margin">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                </h3>
             </div>
           </section>
+          <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+              <h3>PARCEIROS</h3>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="img/img2.jpg" >
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img3.jpg" width="300" height="400">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img4.jpg" width="300" height="400">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+              <h3 class="margin">DESENHOS</h3>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="img/img5.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img6.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img7.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img8.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img9.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="img/img10.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="container-fluid text-center bg-footer margin">
+            <p>
+              Desenvolvido por Davi Michaelsen Mergener
+            </p>
+          </footer>
     </body>
 </html>
